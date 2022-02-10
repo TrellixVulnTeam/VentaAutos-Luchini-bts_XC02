@@ -1,0 +1,53 @@
+*   {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    font-size: 20px !important;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+
+}
+
+h1 {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+    font-size: 25px !important;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+}
+
+footer{
+    
+    margin-top: auto;
+}
+
+.carousel-item {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+
+        .carousel-item img {
+            width: 100%;
+        }
+}
+
+.text-right {
+    text-align: right;
+    position: relative;
+    top: 5px !important;
+}
+
+.imgCentrada {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+}

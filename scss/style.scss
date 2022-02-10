@@ -1,0 +1,18 @@
+@import "tipografia";
+@import "estructura";
+
+@media screen and (min-width: 800px) {
+    .down-header {
+        position: relative;
+        top: 50px !important;
+    }
+
+    .carouselSize {
+        width: 300px;
+    }
+
+    h1 {
+        font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+        font-size: 50px !important;
+    }
+}
